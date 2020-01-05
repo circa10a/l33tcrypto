@@ -7,9 +7,8 @@ For HT
 ### Go
 
 ```shell
-go build encrypt.go
 # String, rounds of "encryption"
-./encrypt secret 3
+go run encrypt.go secret 3
 ```
 
 ### Python
@@ -24,4 +23,14 @@ go build encrypt.go
 ```shell
 # String, rounds of "encryption"
 ./encrypt.sh secret 3
+```
+
+### Java
+
+```shell
+# First, compile the class because this is fucking Java
+$ javac Encrypt.java
+
+# String, rounds of "encryption"
+$ java Encrypt secret 3
 ```

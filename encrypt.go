@@ -31,5 +31,5 @@ func main() {
 	fmt.Println()
 
 	crypto(&string, rounds, "decrypt")
-	fmt.Printf("\"decrypted\" %v", string)
+	fmt.Printf("\"decrypted\" %v\n", string)
 }
