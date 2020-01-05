@@ -10,6 +10,7 @@ For HT
     + [Python](#python)
     + [Bash](#bash)
     + [Java](#java)
+    + [JavaScript](#javascript)
     + [Ruby](#ruby)
     + [Terraform (because why not)](#terraform-because-why-not)
     + [Ansible](#ansible)
@@ -43,6 +44,13 @@ $ javac Encrypt.java
 
 # String, rounds of "encryption"
 $ java Encrypt secret 3
+```
+
+### JavaScript
+
+```shell
+# String, rounds of "encryption"
+node ./encrypt.js secret 3
 ```
 
 ### Ruby
