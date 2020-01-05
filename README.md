@@ -34,3 +34,10 @@ $ javac Encrypt.java
 # String, rounds of "encryption"
 $ java Encrypt secret 3
 ```
+
+### Ruby
+
+```shell
+# String, rounds of "encryption"
+./encrypt.rb secret 3
+```
