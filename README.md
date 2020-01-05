@@ -4,6 +4,16 @@ For HT
 
 ## Usage
 
+- [l33tcrypto 🔒](#l33tcrypto)
+  * [Usage](#usage)
+    + [Go](#go)
+    + [Python](#python)
+    + [Bash](#bash)
+    + [Java](#java)
+    + [Ruby](#ruby)
+    + [Terraform (because why not)](#terraform-because-why-not)
+    + [Ansible](#ansible)
+
 ### Go
 
 ```shell
