@@ -14,6 +14,7 @@ For HT
     + [Ruby](#ruby)
     + [Terraform (because why not)](#terraform-because-why-not)
     + [Ansible](#ansible)
+    + [Puppet](#puppet)
 
 ### Go
 
@@ -120,4 +121,10 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
 ```shell
 ansible-playbook ./encrypt.yaml
+```
+
+### Puppet
+
+```shell
+puppet apply ./encrypt.pp
 ```
