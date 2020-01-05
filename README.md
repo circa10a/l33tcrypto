@@ -97,3 +97,9 @@ null_resource.encrypt: Creation complete after 0s [id=3935885297718964381]
 
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 ```
+
+### Ansible
+
+```shell
+ansible-playbook ./encrypt.yaml
+```
