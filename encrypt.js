@@ -2,10 +2,10 @@
 
 const crypto = (string, rounds, method) => {
     for (let i = 0; i < rounds; i++) {
-        if (method == 'encrypt') {
-            string = Buffer.from(string).toString('base64');
-        } else if (method == "decrypt") {
-            string = Buffer.from(string, 'base64').toString('ascii');
+        if (method === "encrypt") {
+            string = Buffer.from(string).toString("base64");
+        } else if (method === "decrypt") {
+            string = Buffer.from(string, "base64").toString("ascii");
         }
     }
     return string;
