@@ -1,0 +1,12 @@
+- hosts: 127.0.0.1
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: encryption
+      register: encrypt
+      command: "./encrypt.sh secret 3"
+
+    - name: "Show encrypted values"
+      debug:
+        msg: "{{ encrypt.stdout_lines }}"
