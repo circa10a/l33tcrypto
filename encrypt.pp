@@ -9,4 +9,4 @@ class encrypt(
 }
 
 # Execute declared class
-contain encrypt
+class {'encrypt': }
