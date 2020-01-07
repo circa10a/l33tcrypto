@@ -9,7 +9,7 @@ crypto() {
 		if [ $method == "encrypt" ]; then
 			string=$(echo $string | base64)
 		elif [ $method == "decrypt" ]; then
-			string=$(echo $string | base64 -D)
+			string=$(echo $string | base64 --decode)
 		fi
 	done
 
