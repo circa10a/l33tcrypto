@@ -7,3 +7,6 @@ class encrypt(
         command  => "encrypt.sh ${secrets} ${rounds}"
     }
 }
+
+# Execute declared class
+contain encrypt
