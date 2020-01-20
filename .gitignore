@@ -4,3 +4,5 @@
 *.iml
 .terraform/
 *.tfstate*
+rust/target/
+
