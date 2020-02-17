@@ -15,6 +15,7 @@ For HT
     + [Terraform (because why not)](#terraform-because-why-not)
     + [Ansible](#ansible)
     + [Puppet](#puppet)
+    + [Clojure](#clojure)
 
 ### Go
 
@@ -127,4 +128,11 @@ ansible-playbook ./encrypt.yaml
 
 ```shell
 puppet apply ./encrypt.pp
+```
+
+### Clojure
+
+```shell
+# String, rounds of "encryption"
+~/dev/l33tcrypto/l33tcrypto>lein run secret 3
 ```
