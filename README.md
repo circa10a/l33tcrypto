@@ -128,3 +128,11 @@ ansible-playbook ./encrypt.yaml
 ```shell
 puppet apply ./encrypt.pp
 ```
+
+### Rust
+```
+cd rust
+cargo run secret 3
+```
+
+
