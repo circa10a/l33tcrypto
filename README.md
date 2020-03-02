@@ -130,6 +130,14 @@ ansible-playbook ./encrypt.yaml
 puppet apply ./encrypt.pp
 ```
 
+
+### Rust
+```
+cd rust
+cargo run secret 3
+```
+
+
 ### Clojure
 
 ```shell
