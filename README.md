@@ -13,6 +13,7 @@ For HT
     + [JavaScript](#javascript)
     + [Kotlin](#kotlin)
     + [Ruby](#ruby)
+    + [Scala](#scala)
     + [TCL](#tcl)
     + [Terraform (because why not)](#terraform-because-why-not)
     + [Ansible](#ansible)
@@ -72,6 +73,16 @@ $ java -jar encrypt.jar secret 3
 ```shell
 # String, rounds of "encryption"
 ./encrypt.rb secret 3
+```
+
+### Scala
+
+```shell
+# First, compile the class because this is like fucking Java
+$ scalac Encrypt.scala
+
+# String, rounds of "encryption"
+$ scala Encrypt secret 3
 ```
 
 ### TCL
