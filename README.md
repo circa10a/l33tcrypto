@@ -55,6 +55,15 @@ $ java Encrypt secret 3
 node ./encrypt.js secret 3
 ```
 
+### Kotlin
+```shell
+# First, compile the jar because this is like fucking Java
+$ kotlinc encrypt.kt -include-runtime -d encrypt.jar
+
+# String, rounds of "encryption"
+$ java -jar encrypt.jar secret 3
+```
+
 ### Ruby
 
 ```shell
