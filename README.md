@@ -56,6 +56,7 @@ node ./encrypt.js secret 3
 ```
 
 ### Kotlin
+
 ```shell
 # First, compile the jar because this is like fucking Java
 $ kotlinc encrypt.kt -include-runtime -d encrypt.jar
@@ -69,6 +70,13 @@ $ java -jar encrypt.jar secret 3
 ```shell
 # String, rounds of "encryption"
 ./encrypt.rb secret 3
+```
+
+### TCL
+
+```shell
+# String, rounds of "encryption"
+./encrypt.tcl secret 3
 ```
 
 ### Terraform (because why not)
