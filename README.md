@@ -12,6 +12,7 @@ For HT
     + [Java](#java)
     + [JavaScript](#javascript)
     + [Kotlin](#kotlin)
+    + [Perl](#perl)
     + [Ruby](#ruby)
     + [Scala](#scala)
     + [TCL](#tcl)
@@ -66,6 +67,13 @@ $ kotlinc encrypt.kt -include-runtime -d encrypt.jar
 
 # String, rounds of "encryption"
 $ java -jar encrypt.jar secret 3
+```
+
+### Perl
+
+```shell
+# String, rounds of "encryption"
+./encrypt.pl secret 3
 ```
 
 ### Ruby
