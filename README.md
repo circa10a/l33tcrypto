@@ -16,6 +16,7 @@ For HT
     + [TCL](#tcl)
     + [Terraform (because why not)](#terraform-because-why-not)
     + [Ansible](#ansible)
+    + [PHP](#php)
     + [Puppet](#puppet)
     + [Clojure](#clojure)
 
@@ -141,6 +142,12 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
 ```shell
 ansible-playbook ./encrypt.yaml
+```
+
+### PHP
+```shell
+# String, rounds of "encryption"
+./encrypt.php secret 3
 ```
 
 ### Puppet
