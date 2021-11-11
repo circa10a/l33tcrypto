@@ -21,6 +21,7 @@ For HT
     + [PHP](#php)
     + [Puppet](#puppet)
     + [Clojure](#clojure)
+    + [Powershell](#powershell)
 
 ### Go
 
@@ -188,4 +189,11 @@ cargo run secret 3
 ```shell
 # String, rounds of "encryption"
 ~/dev/l33tcrypto/l33tcrypto>lein run secret 3
+```
+
+### Powershell 
+
+```
+# String, rounds of "encryption"
+./encrypt.ps1 secret 3
 ```
