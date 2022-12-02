@@ -22,6 +22,7 @@ For HT
     + [Puppet](#puppet)
     + [Clojure](#clojure)
     + [Powershell](#powershell)
+    + [Erlang](#erlang)
 
 ### Go
 
@@ -196,4 +197,14 @@ cargo run secret 3
 ```
 # String, rounds of "encryption"
 ./encrypt.ps1 secret 3
+```
+
+### Erlang
+
+```
+# First, compile the thing because what even is Erlang
+$ erl -compile encrypt.erl
+
+# Arguments to -encrypt are String, rounds of "encryption"
+$ erl -noshell -s encrypt encrypt -encrypt "secret" 3
 ```
