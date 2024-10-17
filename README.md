@@ -23,6 +23,7 @@ For HT
     + [Clojure](#clojure)
     + [Powershell](#powershell)
     + [Erlang](#erlang)
+    + [Gleam](#gleam)
 
 ### Go
 
@@ -207,4 +208,12 @@ $ erl -compile encrypt.erl
 
 # Arguments to -encrypt are String, rounds of "encryption"
 $ erl -noshell -s encrypt encrypt -encrypt "secret" 3
+```
+
+### Gleam
+
+```
+# gleam is erlang's newest sibling
+cd gleam
+gleam run secret 3
 ```
