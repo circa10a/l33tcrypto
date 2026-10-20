@@ -24,6 +24,7 @@ For HT
     + [Powershell](#powershell)
     + [Erlang](#erlang)
     + [Gleam](#gleam)
+    + [LOLCODE](#lolcode)
 
 ### Go
 
@@ -216,4 +217,14 @@ $ erl -noshell -s encrypt encrypt -encrypt "secret" 3
 # gleam is erlang's newest sibling
 cd gleam
 gleam run secret 3
+```
+
+### LOLCODE
+
+```
+# Needs lci v0.11.2+ (https://github.com/justinmeza/lci) for CAN HAS STRING?
+# Older lci (e.g. v0.10.5) fails with "unknown token at: STRING?". It has no argv,
+# so String, rounds of "encryption" go in as 1 line on stdin.
+# Base64 is hand-rolled, so printable ASCII only. KTHXBYE.
+echo "my secret" 3 | lci encrypt.lol
 ```
